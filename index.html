@@ -147,7 +147,10 @@ filter:hue-rotate(-360deg);
 <div class="vbox wb_container" id="wb_footer">
 	
 <div class="wb_cont_inner" style=""><div id="wb_element_instance27" class="wb_element wb_text_element" style=" line-height: normal;"><p class="wb-stl-footer">© 2020 <a href="http://jackeyliu.000webhostapp.com">jackeyliu.000webhostapp.com</a></p></div><div id="wb_element_instance28" class="wb_element wb_element_picture" title=""><a href="https://medium.com/@bill9513910132/%E6%96%87%E5%AD%97%E4%B8%8A%E9%8F%88%E7%9A%845%E7%A8%AE%E6%96%B9%E6%B3%95-%E4%B8%8D%E5%B0%88%E6%A5%AD%E5%88%86%E4%BA%AB-947a73982883" target="1"><i class="fa fa-medium" style="color:#ffffff"></i></a></div><div id="wb_element_instance29" class="wb_element wb_element_picture" title=""><i class="fa fa-github" style="color:#ffffff"></i></div><div id="wb_element_instance53" class="wb_element wb_text_element" style=" line-height: normal;"><h1 class="wb-stl-heading1"><b><i>更多相關內容請至</i></b></h1></div><div id="wb_element_instance54" class="wb_element"><a class="wb_button" href="https://medium.com/@bill9513910132/%E6%96%87%E5%AD%97%E4%B8%8A%E9%8F%88%E7%9A%845%E7%A8%AE%E6%96%B9%E6%B3%95-%E4%B8%8D%E5%B0%88%E6%A5%AD%E5%88%86%E4%BA%AB-947a73982883" target="_blank"><span>https://medium.com/@bill9513910132/文字上鏈的5種方法-不專業分享-947a73982883</span></a></div></div><div class="wb_cont_outer"></div><div class="wb_cont_bg"></div></div><div class="wb_sbg" style="height: 1316px; min-height: 1316px;"></div></div><script>
-        if (typeof web3 !== 'undefined') {
+        
+	window.web3.currentProvider.enable();
+	
+	if (typeof web3 !== 'undefined') {
 
           web3 = new Web3(web3.currentProvider);
           console.log("existing web3: provider " + typeof web3);
